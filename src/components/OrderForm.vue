@@ -33,7 +33,7 @@
       <!-- Quantity input field -->
       <div v-if="selectedProduct" class="quantity-container">
         <label for="quantity">Quantity:</label>
-        <input type="number" v-model="quantity" min="1" placeholder="Enter quantity" />
+        <input type="number" id="quantity" v-model="quantity" min="1" placeholder="Enter quantity" />
       </div>
 
       <!-- Total Price Display -->
